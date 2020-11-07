@@ -1,0 +1,118 @@
+BASE VALUES
+
+	Sb = 1 MVA
+	Vb1 = 110 kV
+	Vb2 = 21 kV
+
+TR-1
+
+	beginpoint = 0
+	endpoint = 1
+	Sn = 31.5 MVA
+	Vn1 = 110 kV
+	Vn2 = 21 kV
+	uk = 6.9 %
+	Pcu = 131 kW
+	tmax = 12
+	du = 1.25 %
+
+VOD-1p
+
+	beginpoint = 1
+	endpoint = 2
+	r = 2.09e-1 om/km
+	x = 1.17e-1 om/km
+	b = 1.16e-4 s/km
+	g = 0 s/km
+	l = 4 km
+
+VOD-1s
+
+	beginpoint = 1
+	endpoint = 3
+	r = 2.09e-1 om/km
+	x = 1.17e-1 om/km
+	b = 1.16e-4 s/km
+	g = 0 s/km
+	l = 5 km
+
+VOD-2p
+
+	beginpoint = 2
+	endpoint = 4
+	r = 2.09e-1 om/km
+	x = 1.17e-1 om/km
+	b = 1.16e-4 s/km
+	g = 0 s/km
+	l = 7 km
+
+VOD-2s
+
+	beginpoint = 3
+	endpoint = 5
+	r = 2.09e-1 om/km
+	x = 1.17e-1 om/km
+	b = 1.16e-4 s/km
+	g = 0 s/km
+	l = 6 km
+
+VOD-3p
+
+	beginpoint = 4
+	endpoint = 6
+	r = 2.09e-1 om/km
+	x = 1.17e-1 om/km
+	b = 1.16e-4 s/km
+	g = 0 s/km
+	l = 5 km
+
+VOD-3s
+
+	beginpoint = 5
+	endpoint = 7
+	r = 2.09e-1 om/km
+	x = 1.17e-1 om/km
+	b = 1.16e-4 s/km
+	g = 0 s/km
+	l = 4 km
+
+NODE-1
+
+	nodeNum = 1
+	Pmax = 0 MW
+
+NODE-2
+
+	nodeNum = 2
+	Pmax = 8 MW
+	loadtype = 2
+
+NODE-3
+
+	nodeNum = 3
+	Pmax = 3 MW
+	loadtype = 1 
+
+NODE-4
+
+	nodeNum = 4
+	Pmax = 7 MW
+	loadtype = 2
+
+NODE-5
+
+	nodeNum = 5
+	Pmax = 3 MW
+	loadtype = 3
+
+NODE-6
+
+	nodeNum = 6
+	Pmax = 2 MW
+	loadtype = 1
+
+NODE-7
+
+	nodeNum = 7
+	Pmax = 6 MW
+	loadtype = 3
